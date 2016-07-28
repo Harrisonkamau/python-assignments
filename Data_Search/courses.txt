@@ -1,0 +1,9 @@
+economics
+engineering
+computer science
+mathematics
+sociology
+pyschology
+agriculture
+coding
+education
