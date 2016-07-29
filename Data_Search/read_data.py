@@ -15,7 +15,7 @@ with open('MOCK_DATA.csv', 'r') as csvfile:   # read the csv file
     for row in data_reader:  # iterate through the data and compare to the given id
         if id_number == row[0]:
             # print the first name, email and ip address
-            print 'my first name is: '+row[1] + 'and you can email me at: '+row[3] + 'and, uh my ip address is: '+row[5]
+            print 'my first name is: '+row[1] + ' and you can email me at: '+row[3] + ' and, uh my ip address is: '+row[5]
 
         else:
             pass
