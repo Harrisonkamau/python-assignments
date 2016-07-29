@@ -4,8 +4,8 @@ import os
 
 def save_data(data, filename):
     data = raw_input("What diploma course are you currently pursuing?: ")
-    with open('diploma.txt', 'w') as dt:
-        dt.write(string_from_data(data))
+    with open('diploma.txt', 'a') as dt:
+        dt.write(string_from_data('\n'+data))
 
 
 def retrieve_data(filename):
