@@ -20,7 +20,7 @@ def get_course(): # declare a function
 
         if degree != course_list[item]:
             new_course = open('courses.txt', 'a')
-            save_course = new_course.write(degree)  # write the new input and save it
+            new_course.write('\n'+degree)  # write the new input and save it
             new_course.close()
     return new_course
 
